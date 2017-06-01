@@ -1,3 +1,6 @@
 node_modules
+out
+.editorconfig
 .next
+next.config.js
 yarn.lock
