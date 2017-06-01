@@ -9,9 +9,10 @@
   "engines": {
     "node": "8.0.0"
   },
+  "alias":"https://my-site.now.sh",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   }
 }
