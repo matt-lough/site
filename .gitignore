@@ -1,14 +1,3 @@
-# Node
 node_modules
-*.log
-.env
 .next
-lib/
-es/
-dist/
-npm-debug.log
-_book/
-
-# Mac
-.DS_Store
-.*/
+yarn.lock
