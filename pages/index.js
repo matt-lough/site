@@ -1,11 +1,12 @@
-import H1 from "../components/h1";
-import H2 from "../components/h2";
-import UL from "../components/ul";
-import LI from "../components/li";
-import P from "../components/p";
-import Wrapper from "../components/wrapper";
-import Strong from "../components/strong";
-import Meta from "../components/meta";
+import dynamic from "next/dynamic";
+const H1 = dynamic(import("../components/h1"));
+const H2 = dynamic(import("../components/h2"));
+const UL = dynamic(import("../components/ul"));
+const LI = dynamic(import("../components/li"));
+const P = dynamic(import("../components/p"));
+const Wrapper = dynamic(import("../components/wrapper"));
+const Strong = dynamic(import("../components/strong"));
+const Meta = dynamic(import("../components/meta"));
 
 export default () => (
   <div>
@@ -22,12 +23,20 @@ export default () => (
         </LI>
         <LI>
           <P>
-            Twitter: <a target="_blank" href="https://twitter.com/aranajhonny">@aranajhonny</a>
+            Twitter:
+            {" "}
+            <a target="_blank" href="https://twitter.com/aranajhonny">
+              @aranajhonny
+            </a>
           </P>
         </LI>
         <LI>
           <P>
-            Github: <a target="_blank" href="https://github.com/aranajhonny">aranajhonny</a>
+            Github:
+            {" "}
+            <a target="_blank" href="https://github.com/aranajhonny">
+              aranajhonny
+            </a>
           </P>
         </LI>
         <LI>
