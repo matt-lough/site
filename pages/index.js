@@ -54,7 +54,7 @@ export default () => (
           <a target="_blank" href="https://github.com/aranajhonny/ig-upload">
             <Strong>ig-upload</Strong>
           </a>
-          A tiny command line tool for upload images to instagram        {" "}
+          {" "}A tiny command line tool for upload images to instagram        {" "}
         (2017)
         </Pa>
       </LI>

@@ -21,7 +21,7 @@ export default ({ children }) => (
 
             body {
                 font-family: Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
-                color: #222;
+                color: #000;
                 -webkit-font-smoothing: antialiased;
                 text-rendering: optimizeLegibility;
                 line-height: 1.2em;

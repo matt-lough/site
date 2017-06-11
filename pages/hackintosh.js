@@ -7,6 +7,7 @@ const H2 = dynamic(import("../components/h2"));
 const UL = dynamic(import("../components/ul"));
 const LI = dynamic(import("../components/li"));
 const P = dynamic(import("../components/p"));
+const Home = dynamic(import("../components/home"));
 const Pa = dynamic(import("../components/pa"));
 const Wrapper = dynamic(import("../components/wrapper"));
 const Strong = dynamic(import("../components/strong"));
@@ -14,6 +15,7 @@ const Title = dynamic(import("../components/title"));
 
 export default () => (
   <Wrapper>
+   <Home />
     <Head>
       <title>
         {" "}My experience using hackintosh low-end PC for 3 years.
