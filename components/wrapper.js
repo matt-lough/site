@@ -5,7 +5,7 @@ export default ({ children }) => (
         .wrapper {
         max-width: 800px;
         margin: 0 auto;
-        padding: 60px 40px 100px 40px;
+        padding: 60px 30px 100px 30px;
       }
 
     `}</style>
@@ -21,7 +21,7 @@ export default ({ children }) => (
 
             body {
                 font-family: Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
-                color: #444;
+                color: #222;
                 -webkit-font-smoothing: antialiased;
                 text-rendering: optimizeLegibility;
                 line-height: 1.2em;

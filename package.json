@@ -2,17 +2,18 @@
   "name": "site",
   "description": "@aranajhonny website",
   "dependencies": {
-    "next": "3.0.0-beta6",
+    "next": "^3.0.0-beta8",
     "react": "15.5.4",
-    "react-dom": "15.5.4"
+    "react-dom": "15.5.4",
+    "send": "^0.15.3"
   },
   "engines": {
-    "node": "8.0.0"
+    "node": "8.1.0"
   },
-  "alias":"https://my-site.now.sh",
+  "alias": "https://my-site.now.sh",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start"
   }
 }
