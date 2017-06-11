@@ -149,10 +149,10 @@ but sometimes I had heard about Mac OS X and hackintosh, in that moment it seeme
     </P>
     <FootNotes>
       <Note id="1">
-        Thank you for reading. if you have any questions DM to @aranajhonny
+        Thank you for reading. if you have any questions DM to aranajhonny@outlook.com
       </Note>
       <Note id="2">
-        The react components used in this blog were taken from rauchg.com
+        Some react components used in this blog were taken from rauchg.com
       </Note>
       <Note id="3">
         Sorry for any mistakes, english is not my native language. I like AI and use the google translate.
