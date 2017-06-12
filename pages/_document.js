@@ -12,6 +12,7 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
+          <title>my-site</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
           <meta
